@@ -97,7 +97,7 @@ public class ServerResource {
                 Response.builder()
                         .timestamp(now())
                         .data(of("server", serverService.delete(id)))
-                        .message("Server delete")
+                        .message("Server deleted")
                         .status(OK)
                         .statusCode(OK.value())
                         .build()
