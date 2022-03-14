@@ -10,8 +10,6 @@ import { Server } from './interface/server';
 import { NotificationService } from './service/notification.service';
 import { ServerService } from './service/server.service';
 
-//https://github.com/getarrays/serverapp/blob/master/src/app/app.component.ts
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
